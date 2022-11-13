@@ -1,0 +1,14 @@
+1
+(?<country>\w+)\s:(?<name>.*?\w)\,\s\d{4}\s(?<year>\d{4})\,\s\w+.(?<vol>\s\d+)*\,\siss.(?<iss>\s\d+)\s\w.\s(?<str>\d+-\d+).{1,80}
+
+2
+(?<country>\w+)\s:(?<name>.*?\w)\,\s(?<year>\d{4})\s\S.\s(?<str>\d+-\d+).{1,70}
+
+3
+(?<country>\w+)\s:(?<name>.*?\w)\,\s\d{4}\s(?<year>\d{4})\,\s\w{1,4}(\s|.\s\s)(?<nr>\d+)\ss.\s(?<str>\d+-\d+).{1,80}
+
+4
+(?<country>\w+)\s:(?<name>.*?\w)\,\s(?<year>\d{4})\s(?<numer>\d{1,4}).{1,40}
+
+5
+(?<country>\w+)\s:(?<name>.*?\w)\,\s\d{4}\s(?<year>\d{4})\,.{6}(?<vol>\d+)\,.{6}(?<iss>\d+).{9}(?<art>\w\d+).{1,80}
